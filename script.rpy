@@ -1089,11 +1089,11 @@ label check():
     r "I DON'T WANNA CLEAN. I DON'T WANNA. I DON'T WANNA!"
 
     show live annoy
-    "Ugh! She was just checking to see if I was paying attention. That little gremlin!"
+    "Ugh! She was checking to see if I was paying attention. That little gremlin!"
 
-    "I clutch my ears and pressed the headphones in as much as I could to muffle the sound. {u}It was futile{/u}." 
+    "I clutch my ears and press the headphones in as much as possible to muffle the sound. {u}It was futile{/u}." 
 
-    "In the corner of my vision I noticed the plants on the walls reaching out to comfort her but can't reach in their current state. At least they aren't focused on me."
+    "In the corner of my vision, I noticed the plants on the walls reaching out to comfort her, failing to reach in their current state. At least they aren't focused on me."
 
     "She kept going on like this for what felt like hours." 
     
@@ -1106,21 +1106,21 @@ label check():
     stop music fadeout 3.0
     
     show revy pout with dissolve
-    "The wails became cries, then sniffles, and finally silence. Sweet, sweet silence. Or maybe she realized that it wasn't working no matter how loud she got."
+    "The wails became cries, then sniffles, and finally silence. Sweet, sweet silence. Or maybe she realized it wasn't working no matter how loud she got."
 
     r "..."
     
     show live
-    "The Alien Goddess now lies rolled in her bedding, head sticking out like she was the filling of a roll cake." 
+    "Revy is now tangled in her bedding, head sticking out like she was the filling of a roll cake." 
     
     "Naturally, the place was even {u}more{/u} of a mess now."
     
     show live annoy
     l "... Had enough?"
 
-    "Rising to my feet I glared at her. It was a little hard considering the dizziness and ringing in my ears. I sent a quick jolt of electric magic through me to forcibly align myself." 
+    "Rising to my feet, I glared at her. It was a little hard, considering the dizziness and ringing in my ears." 
     
-    "It was uncomfrotable and made me feel stiff as board but it's better than nothing." 
+    "It was uncomfortable and made me feel stiff as a board, but it's better than nothing." 
 
     "Now, what will she try next?"
 
@@ -1136,21 +1136,20 @@ label check():
     show live angry
     l "Kh!"
 
-    "My anger soars. Was she really trying to {i}charm{/i} me?! Did she really think that would work?!"
-
+    "My anger soars. Was she trying to {i}put on an act{/i} by being cute?! Did she think that would work?!"
 
     #Choice Keep yourself calm vs Discipline the action
     menu: 
         "Keep yourself calm":
-            "No. I {i}must{/i} remain calm and handle the situation civily."
+            "No. I {i}must{/i} remain calm and handle the situation civilly."
         "Discipline the action":
-            "I can't let this slide. This subject is innapropriate and I can't let it fester in a young girls' head!"
+            "I can't let this slide. This subject is inappropriate, and I can't let it fester in a young girl's head!"
     stop music fadeout 0.2
     show live annoy
     "That being said, losing my cool means I might do something stupid and get myself killed."
 
     show revy fluster with dissolve
-    r "Please can you do this once for me. I'll tell you where to put everything so just this once can you help your adorable little sister?"
+    r "Please can you do this once for me? I'll tell you where to put everything, so just this once, can you help your adorable little sister?"
 
     "Then she winked."
 
@@ -1190,17 +1189,14 @@ label check():
     
     r "EEK!! P-Please calm down. You're scaring me!"
 
-    l "I've had it up to HERE with you! First you ignore my rules I established when you moved in about cleaning and not using the Intercom. Then you're rude when I make you breakfast while interrupting my work!"
+    l "I've had it up to HERE with you! First, you ignore the rules I established when you moved in about cleaning and not using the Intercom. Then you're rude when I make you breakfast while interrupting my work!"
 
     r "I was hungry and in the middle of an online game. I can't pause those!"
 
-    l "And what in the world are you watching that gave you the idea to charm your brother? Incest is morally unaccaptable!!"
-
-    r "I'm sorry! It was a new cartoon that came out last week. I'll stop watching it, I promise!"
-
     l "You better or I'll take away video games for a month!"
+
     show revy cry with dissolve
-    r "{i}WAH!{/i} Noooo! ANYTHING BUT THAT! I'm sorry. Okay. I'm really really sorry for everything!"
+    r "{i}WAH!{/i} Noooo! ANYTHING BUT THAT! I'm sorry. Okay. I'm really, really sorry for everything!"
 
     show live regret
     l "!"
@@ -1211,7 +1207,7 @@ label check():
     
     "She sits on the messy floor, her knees atop messy clothes. Her tiny fingers massage the spots beneath her leaf-like hair in soft circles."
 
-    "I really messed up now. I should apologize before she gets violent." 
+    "I messed up now. I should apologize before she gets violent." 
 
     l "Revy, I'm--"
 
